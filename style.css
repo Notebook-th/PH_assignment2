@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+} 
+/* shared styles */
+.org-bg{
+    color: rgba(233, 90, 8, 1.00);
+}
+.text-grey{
+    color: rgba(0, 0, 0, 0.50);
+}
+/* navigation  */
+.container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 590px;
+   margin-top: 30px;
+}
+.nav-li > ul{
+    display: flex;
+    gap: 48px;
+    list-style: none;
+}
+
+ a{
+    text-decoration: none;
+    color: rgba(37, 36, 50, 1.00);
+}
+#logo{
+    width: 135px;
+    height: 82px;
+}
+.home{
+    font-size: 16px;
+    font-weight: bold; 
+}
+.shop {
+    display: flex;
+    gap: 48px;
+    
+}
+.shop > li > a{
+    color: rgba(137, 135, 161, 1.00);
+    font-size: 16px;
+}
+
+/* hero section */
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-container{
+    display: flex;
+    height: 461px;
+    width: 1140px;
+    margin-top: 120px;
+    justify-content: center;
+    align-items: flex-end; 
+    text-align: left;
+}
+.flwr-details, .flwr-pic{
+    width: 570px;
+}
+.flwr-details h1{
+    font-size: 65px;
+    font-weight: bold;
+    margin-bottom: 13px;
+}
+.flwr-details p{
+    font-size: 22px;
+}
+
+
